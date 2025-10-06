@@ -2,7 +2,7 @@ import os
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.getenv("7670672608:AAHASjUT5IPw_CGbuFXrVejR35ExuJjTDr0")
+TOKEN = os.getenv("BOT_TOKEN")
 
 questions = [
     "1️⃣ Есть ли у вас CRM и фиксируются ли все заявки?",
